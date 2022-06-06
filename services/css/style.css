@@ -1,0 +1,31 @@
+ 
+ :root{
+
+    ---bg-color:rgba(10, 10, 233, 0.767);
+ }
+body{
+
+    background-color:var(---bg-color);
+}
+
+.footer-container
+{
+    background-color: black;
+    height: 10vh;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.content
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}

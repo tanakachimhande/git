@@ -1,0 +1,44 @@
+
+ :root{
+
+    ---bg-color:rgba(10, 10, 233, 0.767);
+ }
+body{
+
+    background-color:var(---bg-color);
+}
+body{
+
+    background-image: url('../images/waves\ and\ low\ fade.PNG');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 100vh;
+    object-fit: cover;
+    backdrop-filter: blur(2px);
+    
+}
+
+#overlay-container
+{
+    margin-top: 30vh ;
+    z-index: 10000;
+}
+
+#text
+{
+    font-size: 50px;
+    color: aliceblue;
+    z-index: 10000;
+}
+
+.overlay
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-transform: capitalize;
+    font-style: italic;
+    font-weight: bold;
+    z-index: 10000;
+}
